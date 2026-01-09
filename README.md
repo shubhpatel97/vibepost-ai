@@ -7,4 +7,6 @@ that explains:
 - AI tools used
 - Zero-code approach
 - Future improvements
+The UI is inspired by a modern React + Tailwind architecture.
+This project focuses on AI orchestration and product design rather than frontend implementation.
 
