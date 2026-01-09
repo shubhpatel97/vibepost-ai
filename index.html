@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VibePost AI – AI Content Generator</title>
+
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 48px 24px;
+    }
+
+    section {
+      margin-bottom: 64px;
+    }
+
+    h1, h2, h3 {
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      color: var(--muted);
+      max-width: 700px;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 80px 24px 64px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin: auto;
+    }
+
+    /* Topic Selection */
+    .topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .topic {
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 14px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .topic input {
+      margin-right: 8px;
+    }
+
+    /* News Cards */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 32px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+    }
+
+    /* Article Preview */
+    .article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+    }
+
+    /* LinkedIn Post */
+    .linkedin {
+      background: #f1f5f9;
+      border-left: 4px solid var(--accent);
+      padding: 24px;
+      border-radius: 8px;
+      white-space: pre-line;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>VibePost AI</h1>
+    <p>
+      Transform industry insights into compelling thought leadership content that attracts top talent and builds your professional brand on LinkedIn.
+    </p>
+  </header>
+
+  <main class="container">
+
+    <!-- TOPIC SELECTION -->
+    <section>
+      <h2>1. Strategic Content Curation</h2>
+      <p>Select industry verticals aligned with your talent acquisition strategy. Our AI crafts content that demonstrates deep market knowledge and positions you as an industry thought leader.</p>
+
+      <div class="topics">
+        <label class="topic">
+          <input type="checkbox" checked /> Artificial Intelligence
+        </label>
+        <label class="topic">
+          <input type="checkbox" /> Venture Capital & Startups
+        </label>
+        <label class="topic">
+          <input type="checkbox" /> Enterprise Technology
+        </label>
+        <label class="topic">
+          <input type="checkbox" /> Talent Strategy & HR Tech
+        </label>
+        <label class="topic">
+          <input type="checkbox" /> Leadership Development
+        </label>
+      </div>
+    </section>
+
+    <!-- NEWS PREVIEW -->
+    <section>
+      <h2>2. Market Intelligence Sources</h2>
+      <p>Premium industry reports and trending insights used to generate content that demonstrates your expertise and market awareness to potential candidates.</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>AI Transformation in Enterprise Hiring</h3>
+          <p>How leading organizations leverage intelligent automation to streamline talent acquisition and improve candidate experience.</p>
+        </div>
+
+        <div class="card">
+          <h3>Executive Engagement Patterns on LinkedIn</h3>
+          <p>Data-driven insights into content strategies that successfully attract C-suite talent and senior professionals.</p>
+        </div>
+
+        <div class="card">
+          <h3>Building Employer Brand Through Thought Leadership</h3>
+          <p>Why strategic content marketing has become essential for attracting passive candidates in competitive markets.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTICLE PREVIEW -->
+    <section>
+      <h2>3. Executive Content Preview</h2>
+
+      <div class="article">
+        <h3>Why Strategic Content Marketing Is Reshaping Talent Acquisition</h3>
+        <p>
+          In today's competitive talent landscape, recruiters and hiring managers are recognizing content marketing as a critical tool for employer branding. 
+          Advanced AI platforms enable talent professionals to consistently share industry insights that demonstrate market expertise and attract high-caliber candidates organically.
+        </p>
+        <p>
+          By leveraging intelligent content generation, talent acquisition leaders can maintain a strong professional presence while focusing on strategic initiatives. 
+          This approach transforms individual recruiters into recognized thought leaders within their industries, significantly improving candidate attraction and engagement rates.
+        </p>
+      </div>
+    </section>
+
+    <!-- LINKEDIN POST -->
+    <section>
+      <h2>4. Professional Thought Leadership Post</h2>
+
+      <div class="linkedin">
+🎯 The future of talent acquisition isn't just about finding candidates — it's about attracting them through authentic expertise.
+
+After reviewing recent market intelligence on professional branding and recruitment trends:
+→ Top-performing recruiters are becoming industry thought leaders
+→ Strategic content sharing drives 3x more qualified candidate inquiries
+→ Authentic insights outperform generic recruitment posts by 400%
+
+The most successful talent professionals understand that consistent, valuable content builds trust and positions them as strategic partners rather than just recruiters.
+
+What's your approach to building thought leadership in talent acquisition?
+
+#TalentAcquisition #ThoughtLeadership #RecruiterBranding #LinkedInStrategy
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      Developed as a professional portfolio showcase • 
+      <a href="#" target="_blank">View Technical Implementation</a>
+    </p>
+    <p>
+      Professional Disclaimer: This platform demonstrates advanced AI-assisted content generation capabilities for talent acquisition professionals.
+      All sample content is illustrative and designed for professional evaluation purposes.
+    </p>
+  </footer>
+
+</body>
+</html>
